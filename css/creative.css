@@ -42,6 +42,8 @@ h6 {
   background-color: #F05F40 !important;
 }
 
+}
+
 .bg-dark {
   background-color: #212529 !important;
 }
@@ -130,10 +132,12 @@ img::-moz-selection {
     background-color: transparent;
   }
   #mainNav .navbar-brand {
-    color: rgba(255, 255, 255, 0.7);
+    /*color: rgba(255, 255, 255, 0.7);*/
+	color: rgba(45, 202, 2, 0.7);
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #fff;
+    /*color: #fff;*/
+	color: #eefb55;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
     padding: 0.5rem 1rem;
@@ -309,4 +313,17 @@ header.masthead p {
 
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+}
+
+
+
+#navBarLogoVerdeAmarelo .navbar-brand:focus, #navBarLogoVerdeAmarelo .navbar-brand:hover {
+    color: #e6ef0f !important;
+
+}
+
+#navBarLogoVerdeAmarelo .navbar-brand {
+
+    color: rgba(0, 226, 15, 0.7) !important;
+
 }
